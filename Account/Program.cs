@@ -15,3 +15,12 @@ internal class Program
         Console.WriteLine($"\tSalary Account Interest: {salaryAccount.Interest}");
     }
 }
+class TemplateBuilder
+{
+    public TemplateBuilder Template { get; set; }
+    public TemplateBuilder()
+    {
+        Template = new TemplateBuilder();
+
+    }
+}
